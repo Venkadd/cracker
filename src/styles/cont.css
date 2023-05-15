@@ -1,0 +1,40 @@
+.safetytipsbg {
+    background-image:linear-gradient(#212245b2, #212245b2), url("https://www.wallpaperbetter.com/wallpaper/933/572/8/city-night-beautiful-fireworks-bay-houses-lights-1080P-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img__i{
+    width: 30%;
+}
+.text__i{
+    
+        animation: blinker 1s linear infinite;   
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .safetytipsbg {
+        background-image:linear-gradient(#212245b2, #212245b2), url("https://www.wallpaperbetter.com/wallpaper/933/572/8/city-night-beautiful-fireworks-bay-houses-lights-1080P-wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img__i{
+        width: 30%;
+    }
+    .text__i{
+        
+            animation: blinker 1s linear infinite;   
+    }
+    
+    @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+     
+  }
